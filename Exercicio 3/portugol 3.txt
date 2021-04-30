@@ -1,0 +1,15 @@
+inicio
+var
+    salario
+    salario_novo
+
+    ESCREVAL ("Favor digitar o valor a ser reajustado")
+    LEIA (salario)
+
+    salario_novo = (salario * 30) / 100;
+    salario = salario + salario_novo
+
+    ESCREVAL("O seu novo salario é de: " + salario)
+    ESCREVAL ("Fim do Programa!!")
+
+fimalgoritmo

@@ -1,0 +1,22 @@
+inicio
+var
+    ano_de_nascimento
+    ano_atual
+    idade
+    semanas
+
+    ESCREVAL ("Insira seu ano de nascimento")
+    LEIA (ano_de_nascimento)
+
+    ESCREVAL ("Insira seu ano atual")
+    LEIA (ano_atual)
+
+    idade = ano_atual - ano_de_nascimento
+    ESCREVAL ("Sua idade é: ", idade)
+
+    semanas = idade * 48
+
+    ESCREVAL ("Sua idade em semanas é: ", semanas)
+    ESCREVAL ("Fim do Programa!!")
+
+fimalgoritmo

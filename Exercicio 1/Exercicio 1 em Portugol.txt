@@ -1,0 +1,22 @@
+inicio
+var
+    idade : REAL
+    meses : REAL
+    dias : REAL
+    horas : REAL
+    minutos : REAL
+
+    ESCREVAL ("Digite sua idade")
+    LEIA (idade)
+
+    meses = idade * 12
+    dias = idade * 365
+    horas = dias * 24
+    minutos = horas * 60
+
+    ESCREVAL ("Sua idade em meses é: ", meses)
+    ESCREVAL ("Sua idade em dias é: ", dias)
+    ESCREVAL ("Sua idade em horas é: ", horas)
+    ESCREVAL ("Sua idade em minutos é: ", minutos)
+
+fimoalgoritmo

@@ -1,0 +1,31 @@
+inicio
+var
+    nome
+    idade
+
+    ESCREVAL("Ola!, Insira seu nome")
+    LEIA (nome)
+    ESCREVAL ("Olá ", nome, " qual a sua idade?")
+    LEIA (idade)
+
+    SE((idade >= 5) e (idade <=7)) ENTÃO
+        ESCREVAL ("Você pertence a categoria Infantil A")
+    FIMSE
+    
+    SE((idade >= 8) e (idade <=10)) ENTÃO
+        ESCREVAL ("Você pertence a categoria Infantil B")
+    FIMSE
+    
+    SE((idade >= 11) e (idade <=13)) ENTÃO
+        ESCREVAL ("Você pertence a categoria Juvenil A")
+    FIMSE
+    
+    SE((idade >= 14) e (idade <=17)) ENTÃO
+        ESCREVAL ("Você pertence a categoria Juvenil B")
+    FIMSE
+    
+    SE(idade >= 18) ENTÃO
+        ESCREVAL ("Você pertence a categoria Sênior")
+    FIMSE
+
+fimalgoritmo
