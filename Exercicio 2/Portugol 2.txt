@@ -14,7 +14,7 @@ var
     idade = ano_atual - ano_de_nascimento
     ESCREVAL ("Sua idade é: ", idade)
 
-    semanas = idade * 48
+    semanas = idade * 52
 
     ESCREVAL ("Sua idade em semanas é: ", semanas)
     ESCREVAL ("Fim do Programa!!")

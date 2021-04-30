@@ -20,7 +20,7 @@ namespace Exercicio_2
             idade = ano_atual - ano_de_nascimento;
             Console.WriteLine("Sua idade é: " + idade);
 
-            semanas = idade * 48;
+            semanas = idade * 52;
             Console.WriteLine("Sua idade em semanas é: " + semanas);
 
             Console.WriteLine("Fim do Programa!!");
