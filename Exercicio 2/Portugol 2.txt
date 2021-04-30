@@ -1,9 +1,9 @@
-inicio
 var
-    ano_de_nascimento
-    ano_atual
-    idade
-    semanas
+    ano_de_nascimento : REAL
+    ano_atual : REAL
+    idade : REAL
+    semanas : REAL
+inicio
 
     ESCREVAL ("Insira seu ano de nascimento")
     LEIA (ano_de_nascimento)

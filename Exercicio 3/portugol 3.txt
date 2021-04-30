@@ -1,15 +1,19 @@
-inicio
 var
-    salario
-    salario_novo
-
+    salario : REAL
+    salario_novo : REAL
+inicio
     ESCREVAL ("Favor digitar o valor a ser reajustado")
     LEIA (salario)
+    
+    SE (salario < 500){
+        salario_novo = (salario * 30) / 100;
+        salario = salario + salario_novo
 
-    salario_novo = (salario * 30) / 100;
-    salario = salario + salario_novo
-
-    ESCREVAL("O seu novo salario é de: " + salario)
+        ESCREVAL("O seu novo salario é de: " + salario)
+    } SENAO{
+        ESCREVAL ("Você não tem reajuste")
+    }
+    
     ESCREVAL ("Fim do Programa!!")
 
 fimalgoritmo

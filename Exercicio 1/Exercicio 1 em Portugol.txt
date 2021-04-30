@@ -1,11 +1,10 @@
-inicio
 var
     idade : REAL
     meses : REAL
     dias : REAL
     horas : REAL
     minutos : REAL
-
+inicio
     ESCREVAL ("Digite sua idade")
     LEIA (idade)
 
